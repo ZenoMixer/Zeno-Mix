@@ -1,22 +1,21 @@
-Transparency Statement
+# Transparency Statement
 
-ZENO Mixer is a non-custodial privacy tool built on Solana’s decentralized infrastructure. We provide cryptographic technology—how users employ it is their responsibility.
+**ZENO Mixer** is a non-custodial privacy tool built on Solana’s decentralized infrastructure. We provide cryptographic technology—how users employ it is their responsibility.
 
-Key Facts:
+# Key Facts:
 
-- Registered Entity: ZENO Technologies Ltd. (Republic of Seychelles, IBC #2025-7890)
-- Regulatory Status: Complies with FATF Travel Rule for VASPs (where applicable)
-- No Admin Controls: Fully autonomous smart contracts (verified on-chain)
+- **Registered Entity**: ZENO Technologies Ltd. (Republic of Seychelles, IBC #2025-7890)
+- **Regulatory Status**: Complies with FATF Travel Rule for VASPs (where applicable)
+- **No Admin Controls**: Fully autonomous smart contracts (verified on-chain)
 
-Privacy Policy
+# Privacy Policy
 
-What We Don’t Collect:
-- IP addresses (Tor/Cloudflare-filtered)
-- Wallet links (deposit/withdrawal addresses never paired)
-- Timestamps (all proofs expire after 7 days)
+# What We Don’t Collect:
+- **IP addresses** (Tor/Cloudflare-filtered)
+- **Wallet links** (deposit/withdrawal addresses never paired)
+- **Timestamps** (all proofs expire after 7 days)
 
-What’s On-Chain:
-- zk-SNARK proofs (anonymous)
-- Pool balances (aggregate only)
-- Contract interactions (public ledger)
-
+# What’s On-Chain:
+- **zk-SNARK proofs** (anonymous)
+- **Pool balances** (aggregate only)
+- **Contract interactions** (public ledger)
