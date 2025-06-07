@@ -1,0 +1,23 @@
+# Terms of Use
+
+By accessing **ZENO Mixer**, you acknowledge the following:
+
+## Self-Custody
+
+- You control keys; we cannot recover lost funds
+- Mixer deposits require 2/2 multisig confirmation
+
+## Prohibited Jurisdictions
+
+Automatically blocks users from:
+
+- United States (OFAC-sanctioned addresses)
+- China, Russia, North Korea
+- Geo-fencing via IP + wallet fingerprinting
+
+## Lawful Use Only
+
+Mixer may not be used for:
+
+- Evading legally-mandated financial reporting
+- Processing proceeds of theft/hacks (Chainalysis-monitored)
