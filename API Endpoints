@@ -1,0 +1,25 @@
+const express = require('express');
+const { Connection, PublicKey, Transaction } = require('@solana/web3.js');
+const app = express();
+const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
+
+// API to deposit funds into ZENO Mixer
+app.post('/deposit', async (req, res) => {
+  const { userWallet, amount, zkProof } = req.body;
+
+  try {
+    // Process the deposit with the ZENO program (this is a simplified example)
+    const depositTransaction = new Transaction().add(
+      // Add instructions to interact with the ZENO smart contract
+    );
+
+    // Send the transaction to Solana network
+    const signature = await connection.sendTransaction(depositTransaction, [userWallet]);
+
+    res.status(200).send({ success: true, signature });
+  } catch (error) {
+    res.status(500).send({ error: 'Deposit failed', details: error.message });
+  }
+});
+
+app.listen(3000, () => console.log('ZENO Mixer API running on port 3000'));
